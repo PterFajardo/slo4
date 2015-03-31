@@ -1,0 +1,196 @@
+@import '_variables';
+
+/*********************************** MEDIA QUERIES ***********************************/
+
+@media screen and (max-width: $l-max-width)
+{
+
+}
+
+/*@media screen and (min-width: 825px)*/
+/* Large viewport experience */
+@media screen and (min-width: $l-min-width)
+{
+
+}
+
+/* 824-width and smaller viewport rules */
+/*@media screen and (max-width: 824px)*/
+/* 759-width and smaller viewport rules */
+@media screen and (max-width: $m-p-max-width)
+{
+	#sc-frame {
+		width: 91%;
+		margin-left: 9%;
+
+		&.gpuAccelCapable {
+			&.hidden {
+				width: 50%;
+				margin-left: 0;
+				@include transform(100%, 0, 0);
+			}
+		}
+
+		&.collapsed {
+			#search-bar {
+				#search-field {
+					width: 100px;
+				}
+			}
+		}
+	}
+
+	#menu-panel {
+		width: 50%;
+		#menu-header {
+			height: 50px;
+		}
+	}
+
+	#header-panel {
+		height: 50px;
+	}
+
+	.btn-zoom {
+		left: 5%;
+		&#btn-zoom-in {
+			top: 70px;
+		}
+		&#btn-zoom-out {
+			top: 125px;
+		}
+	}
+
+	.header-bar-btn {
+		width: 44px;
+	}
+
+ 	.header-bar-logo {
+		margin: 10px 5px 0 0;
+		top: 0;
+		right: 10px;
+	}
+
+	#search-bar {
+		padding-top: 10px;
+
+		#search-field {
+			width: 190px;
+		}
+	}
+
+	#info-panel {
+		width: 70%;
+		margin-top: 50px;
+		z-index: 10;
+	}
+
+	#info-box {
+		padding-bottom: 5px 0 0 45px;
+		position: relative;
+	}
+	
+	#info-box-content {
+		padding: 15px 0px 10px;
+	}
+
+}
+
+/* 480-width and smaller viewport rules */
+/*@media screen and (max-width: 480px)*/
+/* 560-width and smaller viewport rules */
+@media screen and (max-width: $s-l-max-width)
+{	
+
+	.header-bar-logo {
+		display: none;
+	}
+
+	#customer-logo {
+		display: block;
+	}
+
+	#branding-logo {
+		width: 25px;
+	}
+
+	#menu-panel {
+		width: 60%;
+	}
+
+	#sc-frame {
+		&.gpuAccelCapable {
+			&.hidden {
+				width: 50%;
+				margin-left: 9%;
+				@include transform(100%,0,0);
+
+				#branding-logo {
+					display: none;
+				}
+			}
+		}
+		&.collapsed {
+			#info-panel {
+				width: 100%;
+			}
+		}
+	}
+
+}
+
+
+/* 360 and smaller viewport rules */
+/*@media screen and (max-width: 360px)*/
+/* 390 and smaller viewport rules */
+@media screen and (max-width: $s-p2-max-width)
+{
+	#search-bar {
+		#search-field {
+			width: 150px;
+		}
+	}
+
+	#ifactorAlert {
+		margin: -50px 0 0 -100px;
+		width: 200px;
+	}
+
+	#menu-content {
+		#menu-content-holder {
+			padding: 0 10px 20px;
+		}
+	}
+
+	#menu-panel.expanded {
+		.menu-row {
+		 	.menu-label {
+				font-size: 0.8em;
+			}
+		}
+
+		.info-data {
+			font-size: 0.7em;
+		}
+	}
+	
+	#sc-frame {
+		&.gpuAccelCapable {
+			&.hidden {
+				#branding-logo {
+					display: none;
+				}
+
+				#customer-logo {
+					display: none;
+				}
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width: $s-p1-max-width)
+{
+	
+}

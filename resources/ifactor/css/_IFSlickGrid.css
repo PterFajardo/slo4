@@ -1,0 +1,216 @@
+#myGrid {
+  background: white;
+  outline: 0;
+  border: 1px solid gray;
+}
+
+.grid-header {
+  border: 1px solid gray;
+  border-bottom: 0;
+  border-top: 0;
+  background: url('../../../resources/lib/SlickGrid/2.2/images/header-bg.gif') repeat-x center top;
+  color: black;
+  height: 24px;
+  line-height: 24px;
+}
+
+.grid-header label {
+  display: inline-block;
+  margin: auto auto auto 6px;
+}
+
+.grid-header .ui-icon {
+  margin: 4px 4px auto 6px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.grid-header .ui-icon.ui-state-hover {
+  background-color: white;
+}
+
+.grid-header #txtSearch {
+  margin: 0 4px 0 4px;
+  padding: 2px 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border: 1px solid silver;
+}
+
+.options-panel {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border: 1px solid silver;
+  background: #f0f0f0;
+  padding: 4px;
+  margin-bottom: 20px;
+  width: 320px;
+  position: absolute;
+  top: 0px;
+  left: 650px;
+}
+
+/* Individual cell styles */
+.slick-cell.task-name {
+  font-weight: bold;
+  text-align: right;
+}
+
+.slick-cell.task-percent {
+  text-align: right;
+}
+
+.slick-cell.cell-move-handle {
+  font-weight: bold;
+  text-align: right;
+  border-right: solid gray;
+
+  background: #efefef;
+  cursor: move;
+}
+
+.cell-move-handle:hover {
+  background: #b6b9bd;
+}
+
+.slick-row.selected .cell-move-handle {
+  background: #D5DC8D;
+}
+
+.slick-row .cell-actions {
+  text-align: left;
+}
+
+.slick-row.complete {
+  background-color: #DFD;
+  color: #555;
+}
+
+/* Slick.Editors.Text, Slick.Editors.Date */
+input.editor-text {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  margin: 0;
+  background: transparent;
+  outline: 0;
+  padding: 0;
+}
+
+/* Moved from HTML file */
+.cell-effort-driven {
+  text-align: center;
+}
+
+.toggle {
+  height: 9px;
+  width: 9px;
+  display: inline-block;
+}
+
+.toggle.expand {
+  background: url(../../../resources/lib/SlickGrid/2.2/images/expand.gif) no-repeat center center;
+}
+
+.toggle.collapse {
+  background: url(../../../resources/lib/SlickGrid/2.2/images/collapse.gif) no-repeat center center;
+}
+
+.tree-root-bold {
+	color : black;
+	font-weight : bold;
+}
+
+.slick-row.odd {
+  /*background: #E4EDD3;*/
+  background: #F7F8F9;
+}
+
+.slick-cell{
+	padding : 4px 2px 2px 1px !important;
+}
+
+
+
+/***********************************************************************************************/
+/* STYLES FOR SUMMARY TABLE (REMOVE LATER) */
+/***********************************************************************************************/
+
+#summary-header2 {
+	display: block;
+	font-size: 70%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #686D74;
+	width: 597px;
+}
+
+#summary-table {
+	width: 595px;
+	/*height: 265px;*/
+	height: 244px;
+	display: block;
+	outline: 1px;
+	/*border: 1px solid gray;*/
+	font-size: 70%;
+	overflow: hidden;
+}
+
+#summary-table div {
+	display:block;
+	padding:0;
+	-webkit-box-sizing: content-box
+}
+
+#summary-totals {
+	width: 595px;
+	height: 18px;
+	display: block;
+	outline: 1px;
+	/*border: 1px solid gray;*/
+	font-size: 70%;
+	overflow: hidden;
+}
+
+#summary-totals div {
+	display:block;
+	padding:0;
+	-webkit-box-sizing: content-box
+}
+
+#summary-footer {
+	display: block;
+	font-size: 80%;
+	margin-top: 5px;
+}
+
+#summary-table .ui-state-default {
+	background: #DCE0E3;
+	text-align: center;
+	font-weight: 700;
+}
+
+#summary-totals .ui-state-default {
+	background: #99A6AF;
+	color: #fff;
+	font-weight: 700;
+}
+
+#summary-table .report-cell-align-right, #summary-totals .report-cell-align-right {
+	display:inline-block;
+	width:95%;
+	text-align:right;'
+}
+#summary-table .report-cell-align-extraright, #summary-totals .report-cell-align-extraright {
+	display:inline-block;
+	width:90%;
+	text-align:right;'
+}
+
+#summary-table .report-cell-align-center, #summary-totals .report-cell-align-center {
+	display:inline-block;
+	width:95%;
+	text-align:center;'
+}
+
+

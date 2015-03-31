@@ -1,0 +1,1771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51c8cc73-4cb8-4bea-851e-ae64d2e2d1d6" name="Default" comment="applied new light images and added zoom logic">
+<<<<<<< HEAD
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\scripts\IFMapIncident.js" afterPath="" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ifactor/scss/_media-queries.scss" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG.zip" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\additional-materials-required-in-progress.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\additionalWork.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\cable-repair.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\cancelled-etc.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\cancelled.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\closed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\complete.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\confirmed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\in-progress.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\info.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\invalid-status.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\light-off.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\light-on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\location.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\mulitple-light-outage.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\mulitple-light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\notOurLight.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\pending-resolved.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\private-light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\rejected.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\repair-completed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\reported.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\resolved.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\unbilled-off-2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\unbilled-off.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\25px\unresolved.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\Additional Work, Cable Replacement, ODL Replacement.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\Not our light, Not GPC light, Other Utility, City light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\additional-materials-required-in-progress.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\cable-repair.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\cancelled-etc.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\cancelled.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\closed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\complete.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\confirmed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\in-progress.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\info.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\invalid-status.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\light-off.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\light-on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\location.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\pending-resolved.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\private-light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\rejected.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\repair-complete.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\reported.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\resolved.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\unbilled-off-2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\unbilled-off.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\@2x\unresolved.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._Additional Work, Cable Replacement, ODL Replacement.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._Not our light, Not GPC light, Other Utility, City light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._additional-materials-required-in-progress.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._cable-repair.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._cancelled-etc.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._cancelled.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._closed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._complete.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._confirmed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._in-progress.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._info.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._invalid-status.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._light-off.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._light-on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._location.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._mulitple-light-outage.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._mulitple-light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._pending-resolved.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._private-light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._rejected.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._repair-completed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._reported.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._resolved.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._unbilled-off-2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._unbilled-off.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\25px\._unresolved.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._Additional Work, Cable Replacement, ODL Replacement.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._Not our light, Not GPC light, Other Utility, City light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._additional-materials-required-in-progress.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._cable-repair.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._cancelled-etc.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._cancelled.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._closed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._complete.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._confirmed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._in-progress.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._info.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._invalid-status.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._light-off.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._light-on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._location.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._pending-resolved.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._private-light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._rejected.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._repair-complete.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._reported.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._resolved.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._unbilled-off-2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._unbilled-off.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\images\default\svg\lightIcons\PNG\__MACOSX\@2x\._unresolved.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iFactor.SLO.BllTest/App.config" afterPath="$PROJECT_DIR$/../iFactor.SLO.BllTest/App.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/ifactor/scripts/IFMap.js" afterPath="$PROJECT_DIR$/resources/ifactor/scripts/IFMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/ifactor/scripts/IFMapAlert.js" afterPath="$PROJECT_DIR$/resources/ifactor/scripts/IFMapAlert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/ifactor/scripts/IFStreetLightOutages.js" afterPath="$PROJECT_DIR$/resources/ifactor/scripts/IFStreetLightOutages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../releaseChanges/dukeRelease/SQLQuery59.sql" afterPath="$PROJECT_DIR$/../releaseChanges/dukeRelease/SQLQuery59.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/ifactor/scss/_mixins.scss" afterPath="$PROJECT_DIR$/resources/ifactor/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iFactor.SLO.BllTest/iFactor.SLO.BllTest.csproj" afterPath="$PROJECT_DIR$/../iFactor.SLO.BllTest/iFactor.SLO.BllTest.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/ifactor/css/ifactor-base.css.map" afterPath="$PROJECT_DIR$/resources/ifactor/css/ifactor-base.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/ifactor/css/ifactor-base.css" afterPath="$PROJECT_DIR$/resources/ifactor/css/ifactor-base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/ifactor/scss/ifactor-base.scss" afterPath="$PROJECT_DIR$/resources/ifactor/scss/ifactor-base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/ifactor/images/svg/ifactor-watermark.svg" afterPath="$PROJECT_DIR$/resources/ifactor/images/svg/ifactor-watermark.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> origin/master
+    </list>
+    <ignored path="iFactor.SLO4.Map.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="D:\iFactorProjects\slo\iFactor.SLO4.Map\exportToHTML" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="iFactor.SLO4.Map" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="mgmtIncidentPanel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/templates/mgmtIncidentPanel.html">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="1632" max-vertical-offset="2176">
+              <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tfoot#0;n#table#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+=======
+            <state vertical-scroll-proportion="0.33305085" vertical-offset="15009" max-vertical-offset="16507">
+              <caret line="906" column="0" selection-start-line="906" selection-start-column="0" selection-end-line="906" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+>>>>>>> origin/master
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="IFMap.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12090164" vertical-offset="60" max-vertical-offset="10081">
+              <caret line="24" column="160" selection-start-line="24" selection-start-column="160" selection-end-line="24" selection-end-column="160" />
+              <folding>
+                <element signature="e#4173#4601#0" expanded="false" />
+                <element signature="e#8735#10291#0" expanded="false" />
+                <element signature="e#10336#10391#0" expanded="false" />
+                <element signature="e#10436#10491#0" expanded="false" />
+                <element signature="e#10537#10593#0" expanded="false" />
+                <element signature="e#10644#10699#0" expanded="false" />
+                <element signature="e#10785#10918#0" expanded="false" />
+                <element signature="e#10960#11331#0" expanded="false" />
+                <element signature="e#11380#11557#0" expanded="false" />
+                <element signature="e#11613#12074#0" expanded="false" />
+                <element signature="e#12118#14313#0" expanded="false" />
+                <element signature="e#14425#15700#0" expanded="false" />
+                <element signature="e#15764#16964#0" expanded="false" />
+                <element signature="e#17053#17746#0" expanded="false" />
+                <element signature="e#17811#19360#0" expanded="false" />
+                <element signature="e#19407#19699#0" expanded="false" />
+                <element signature="e#19756#22279#0" expanded="false" />
+                <element signature="e#22324#22425#0" expanded="false" />
+                <element signature="e#24534#25232#0" expanded="false" />
+                <element signature="e#25287#25486#0" expanded="false" />
+                <element signature="e#25538#26598#0" expanded="false" />
+                <element signature="e#26641#27648#0" expanded="false" />
+                <element signature="e#27708#27837#0" expanded="false" />
+                <element signature="e#27898#28026#0" expanded="false" />
+                <element signature="e#31785#31868#0" expanded="false" />
+                <element signature="e#36988#37083#0" expanded="false" />
+                <element signature="e#37126#37223#0" expanded="false" />
+                <element signature="e#37267#37353#0" expanded="false" />
+                <element signature="e#37396#37494#0" expanded="false" />
+                <element signature="e#37555#37659#0" expanded="false" />
+=======
+      <file leaf-file-name="location.png" pinned="false" current-in-tab="false">
+        <entry file="http://localhost:63342/iFactor.SLO4.Map/resources/ifactor/images/default/lightIcons/png/25px/red/location.png">
+          <provider selected="true" editor-type-id="httpFileEditor">
+            <state />
+          </provider>
+          <provider editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IFStreetLightOutages.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFStreetLightOutages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IFMapAlert.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapAlert.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EcmaScript5.js" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3349">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IFMapInfoBox.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapInfoBox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="8279">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#13909#16347#0" expanded="false" />
+                <element signature="e#16403#16871#0" expanded="false" />
+                <element signature="e#16921#17166#0" expanded="false" />
+                <element signature="e#17225#17544#0" expanded="false" />
+                <element signature="e#17676#17942#0" expanded="false" />
+                <element signature="e#17992#18531#0" expanded="false" />
+                <element signature="e#25593#28829#0" expanded="false" />
+                <element signature="e#29506#29780#0" expanded="false" />
+                <element signature="e#29829#30095#0" expanded="false" />
+                <marker date="1425574833598" expanded="true" signature="13547:13560" placeholder="..." />
+                <marker date="1425574833598" expanded="true" signature="16035:16048" placeholder="..." />
+>>>>>>> origin/master
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IFMapMgmtInfoBox.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapMgmtInfoBox.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="3638">
+              <caret line="51" column="90" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
+=======
+            <state vertical-scroll-proportion="-0.0" vertical-offset="51" max-vertical-offset="3536">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="20" />
+>>>>>>> origin/master
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="mgmtInfoBox.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/templates/mgmtInfoBox.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="476">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+=======
+      <file leaf-file-name="back-chevron@2x.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/ifactor/images/back-chevron@2x.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+>>>>>>> origin/master
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/impl/scripts/IFStormCenterUI.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFStormCenterUI.messages.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFStormCenter.configStyles.js" />
+        <option value="$PROJECT_DIR$/impl/scripts/_IFStormCenter.configReports.js" />
+        <option value="$PROJECT_DIR$/impl/scripts/IFStormCenter.js" />
+        <option value="$PROJECT_DIR$/default_tree.html" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/iFactor.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFDataMonitor.js" />
+>>>>>>> origin/master
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFStormCenter.js" />
+        <option value="$PROJECT_DIR$/impl/scripts/IFStormCenter.configStyles.js" />
+        <option value="$PROJECT_DIR$/impl/scripts/IFStormCenter.configRangesLayers.js" />
+        <option value="$PROJECT_DIR$/impl/scripts/IFStormCenter.configVisibility.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/maps/google/IFImplMap.api.js" />
+        <option value="$PROJECT_DIR$/impl/scripts/IFStormCenter.configDataMonitor.js" />
+        <option value="$PROJECT_DIR$/impl/scripts/IFStormCenter.configLayers.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/slo.js" />
+        <option value="$PROJECT_DIR$/resources/lib/angular/angular.min.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/css/_IFBase.css" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFConfiguration.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFStormCenterUI.js" />
+        <option value="maps.gstatic.com/cat_js/maps-api-v3/api/js/19/4/%7Bmain,visualization%7D.js" />
+        <option value="$PROJECT_DIR$/resources/infobox.html" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/test.js" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/infobox.html" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFAddressSearch.js" />
+        <option value="$PROJECT_DIR$/resources/templates/addressSearch.html" />
+        <option value="$PROJECT_DIR$/resources/templates/alert.html" />
+        <option value="$PROJECT_DIR$/resources/templates/messageBox.html" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMapMessageBox.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMapMenu.js" />
+        <option value="$PROJECT_DIR$/resources/templates/menu.html" />
+        <option value="$PROJECT_DIR$/resources/ifactor/data/pepco1k.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/data/pepco5k.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/data/pepco10k.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/data/pepco2500.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/data/geoJSON/pepco.json" />
+        <option value="maps.gstatic.com/maps-api-v3/api/js/19/7/main.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMapAddressSearch.js" />
+        <option value="maps.gstatic.com/maps-api-v3/api/js/19/7a/main.js" />
+        <option value="$PROJECT_DIR$/resources/templates/assetSearch.html" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMapAssetSearch.js" />
+        <option value="ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/css/IFBase.css" />
+        <option value="$PROJECT_DIR$/resources/ifactor/css/ifactor-base.css" />
+        <option value="$PROJECT_DIR$/resources/templates/infobox.html" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMapInfoBox.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMapAlert.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFStreetLightOutages.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scss/ifactor-incident.scss" />
+        <option value="$PROJECT_DIR$/mgmtIncident.html" />
+        <option value="$PROJECT_DIR$/default.html" />
+        <option value="$PROJECT_DIR$/resources/templates/incident.html" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMapIncident.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMap.js" />
+        <option value="$PROJECT_DIR$/defaultIncident.html" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMapMgmtIncidentPanel.js" />
+        <option value="$PROJECT_DIR$/resources/templates/mgmtInfoBox.html" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMapMgmtInfoBox.js" />
+=======
+        <option value="$PROJECT_DIR$/default.html" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMapAlert.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFStreetLightOutages.js" />
+        <option value="$PROJECT_DIR$/resources/ifactor/scripts/IFMap.js" />
+>>>>>>> origin/master
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1216" />
+    <option name="height" value="1906" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iFactor.SLO4.Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+<<<<<<< HEAD
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iFactor.SLO4.Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iFactor.SLO4.Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iFactor.SLO4.Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iFactor.SLO4.Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iFactor.SLO4.Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iFactor.SLO4.Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iFactor.SLO4.Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iFactor.SLO4.Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ifactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iFactor.SLO4.Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iFactor.SLO4.Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ifactor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+=======
+>>>>>>> origin/master
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="recentsLimit" value="5" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="JavaScriptLanguageLevel" value="JSX" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/ifactor/products/workspace/comed-eoutages" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\templates" />
+      <recent name="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\scripts" />
+      <recent name="D:\iFactorProjects\slo\iFactor.SLO4.Map" />
+      <recent name="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\scss" />
+      <recent name="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor\data\traditional" />
+      <recent name="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\templates" />
+      <recent name="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources" />
+      <recent name="D:\iFactorProjects\slo\iFactor.SLO4.Map" />
+      <recent name="D:\iFactorProjects\slo\iFactor.SLO4.Map\resources\ifactor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.default.html">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="default.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/iFactor.SLO4.Map/default.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.default.html" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" text="btn-search" recursive="true" caseInsensitive="true" type="XML" history="1" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51c8cc73-4cb8-4bea-851e-ae64d2e2d1d6" name="Default" comment="" />
+      <created>1418679911512</created>
+      <option name="number" value="Default" />
+      <updated>1418679911512</updated>
+      <workItem from="1420477165988" duration="18622000" />
+      <workItem from="1420672976484" duration="655000" />
+      <workItem from="1420821364695" duration="11852000" />
+      <workItem from="1420844990694" duration="4143000" />
+      <workItem from="1421075630985" duration="68967000" />
+      <workItem from="1421428435387" duration="12640000" />
+      <workItem from="1421448055631" duration="3105000" />
+      <workItem from="1421680351934" duration="29212000" />
+      <workItem from="1421857957068" duration="2417000" />
+      <workItem from="1421868866879" duration="53545000" />
+      <workItem from="1422290079098" duration="38191000" />
+      <workItem from="1422459524668" duration="46231000" />
+      <workItem from="1422636450304" duration="4133000" />
+      <workItem from="1422649385716" duration="17334000" />
+      <workItem from="1422674114951" duration="5616000" />
+      <workItem from="1422894333293" duration="12000" />
+      <workItem from="1422895150333" duration="537000" />
+      <workItem from="1422895854119" duration="36059000" />
+      <workItem from="1423066096028" duration="828000" />
+      <workItem from="1423067663918" duration="15000" />
+      <workItem from="1423501259032" duration="3530000" />
+      <workItem from="1425326544717" duration="2572000" />
+      <workItem from="1425332875567" duration="21872000" />
+      <workItem from="1425659319537" duration="282000" />
+      <workItem from="1425664757098" duration="624000" />
+<<<<<<< HEAD
+      <workItem from="1425677878543" duration="6845000" />
+      <workItem from="1425922418368" duration="1092000" />
+      <workItem from="1425924096702" duration="2889000" />
+      <workItem from="1426002889241" duration="12300000" />
+      <workItem from="1426032487247" duration="1376000" />
+      <workItem from="1426093395099" duration="27805000" />
+=======
+      <workItem from="1425677878543" duration="4884000" />
+>>>>>>> origin/master
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="435301000" />
+=======
+    <option name="totallyTimeSpent" value="387878000" />
+>>>>>>> origin/master
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1216" height="1906" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27272728" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21108742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32575756" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24913494" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5113636" sideWeight="0.659375" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33869442" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14792387" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24913494" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29617116" sideWeight="0.659375" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/master
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24913494" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28983957" sideWeight="0.659375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32619718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12625138" sideWeight="0.659375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/master
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27272728" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21149144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32619718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33869442" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32647386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/master
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="applied new light images and added zoom logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="applied new light images and added zoom logic" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/google/IFImplMap.api.js</url>
+          <line>791</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/IFImplVectorLayer.js</url>
+          <line>487</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/IFImplVectorLayer.js</url>
+          <line>606</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/IFImplVectorLayer.js</url>
+          <line>712</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/google/IFImplMap.api.js</url>
+          <line>397</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/IFImplVectorLayer.js</url>
+          <line>376</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/google/IFImplMap.api.js</url>
+          <line>401</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/IFImplMap.js</url>
+          <line>1050</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/IFImplVectorLayer.js</url>
+          <line>360</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/google/IFImplMap.api.js</url>
+          <line>377</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/google/IFImplMap.api.js</url>
+          <line>333</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/google/IFImplMap.api.js</url>
+          <line>338</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/google/IFImplMap.api.js</url>
+          <line>357</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/IFImplVectorLayer.js</url>
+          <line>303</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/maps/IFImplVectorLayer.js</url>
+          <line>494</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/IFStreetLightOutages.js</url>
+          <line>30</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/IFMap.js</url>
+          <line>700</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/ifactor/scripts/IFMap.js</url>
+          <line>393</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+      </breakpoints>
+<<<<<<< HEAD
+      <option name="time" value="134" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="formData" language="JavaScript" />
+=======
+      <option name="time" value="96" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="ASSETADDRESS" language="JavaScript" />
+        <watch expression="$location.host()" language="JavaScript" />
+        <watch expression="allowableBounds" language="JavaScript" />
+        <watch expression="CONFIGURATION.maxViewableLatitude" language="JavaScript" />
+        <watch expression="CONFIGURATION.maxViewableLongitude" language="JavaScript" />
+        <watch expression="CONFIGURATION.minViewableLatitude" language="JavaScript" />
+        <watch expression="CONFIGURATION.minViewableLongitude" language="JavaScript" />
+        <watch expression="parseFloat(CONFIGURATION.maxViewableLatitude)" language="JavaScript" />
+        <watch expression="bounds.getNorthEast().lat()" language="JavaScript" />
+        <watch expression="bounds.getSouthWest().lat()" language="JavaScript" />
+        <watch expression="bounds.getSouthWest().lng()" language="JavaScript" />
+        <watch expression="$('#info-panel').show()" language="JavaScript" />
+        <watch expression="CONFIGURATION['status:46']" language="JavaScript" />
+>>>>>>> origin/master
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapInfoBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="850">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1851" max-vertical-offset="3689">
+          <caret line="213" column="42" selection-start-line="213" selection-start-column="42" selection-end-line="213" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/infobox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="493">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/css/IFBase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="22946" max-vertical-offset="28815">
+          <caret line="1361" column="10" selection-start-line="1361" selection-start-column="7" selection-end-line="1361" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFStreetLightOutages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="8296">
+          <caret line="227" column="36" selection-start-line="227" selection-start-column="12" selection-end-line="227" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="745" max-vertical-offset="1496">
+          <caret line="176" column="25" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> origin/master
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapInfoBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="967" max-vertical-offset="2907">
+          <caret line="216" column="45" selection-start-line="216" selection-start-column="45" selection-end-line="216" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/css/IFBase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="22946" max-vertical-offset="28815">
+          <caret line="1361" column="10" selection-start-line="1361" selection-start-column="7" selection-end-line="1361" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFStreetLightOutages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="8296">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapInfoBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11509">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/css/IFBase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="24920" max-vertical-offset="28815">
+          <caret line="1479" column="15" selection-start-line="1479" selection-start-column="5" selection-end-line="1479" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFStreetLightOutages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="4131">
+          <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/css/IFBase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14715" max-vertical-offset="28815">
+          <caret line="894" column="6" selection-start-line="894" selection-start-column="4" selection-end-line="894" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFStreetLightOutages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1744" max-vertical-offset="3655">
+          <caret line="156" column="14" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lib/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66169894" vertical-offset="38860" max-vertical-offset="104941">
+          <caret line="2312" column="32" selection-start-line="2312" selection-start-column="32" selection-end-line="2312" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5272206" vertical-offset="1774" max-vertical-offset="8721">
+          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://maps.gstatic.com/cat_js/maps-api-v3/api/js/19/4/%7Bmain,visualization%7D.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://maps.gstatic.com/maps-api-v3/api/js/19/5/main.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/messageBox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65265083" vertical-offset="0" max-vertical-offset="547">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://maps.gstatic.com/maps-api-v3/api/js/19/7/main.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45503598" vertical-offset="5816" max-vertical-offset="10370">
+          <caret line="357" column="16" selection-start-line="357" selection-start-column="16" selection-end-line="357" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78405315" vertical-offset="5070" max-vertical-offset="6817">
+          <caret line="326" column="16" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://maps.gstatic.com/maps-api-v3/api/js/19/7a/main.js">
+=======
+    <entry file="http://maps.gstatic.com/maps-api-v3/api/js/19/7/main.js">
+>>>>>>> origin/master
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapAssetSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapMessageBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4516129" vertical-offset="14" max-vertical-offset="1037">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="http://maps.gstatic.com/maps-api-v3/api/js/20/1/main.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/css/IFBase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11862" max-vertical-offset="26486">
+          <caret line="712" column="18" selection-start-line="712" selection-start-column="18" selection-end-line="712" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/css/ifactor-base.css">
+=======
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms.rnc">
+>>>>>>> origin/master
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9125" max-vertical-offset="12818">
+          <caret line="542" column="2" selection-start-line="542" selection-start-column="2" selection-end-line="542" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/images/default/streetlight_newly_reported_outage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/images/default/streetlight_new.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/images/default/streetlight_confirmed_outage_new.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/assetSearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05971897" vertical-offset="0" max-vertical-offset="1708">
+          <caret line="6" column="73" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+=======
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/phrase.rnc">
+>>>>>>> origin/master
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3349">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/templates/alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13934426" vertical-offset="0" max-vertical-offset="1708">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/images/back-chevron@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/images/default/lightIcons/png/25px/red/location.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://localhost:63342/iFactor.SLO4.Map/resources/ifactor/images/default/lightIcons/png/25px/red/location.png">
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+=======
+    <entry file="http://maps.gstatic.com/maps-api-v3/api/js/19/7a/main.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapAssetSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapMessageBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4516129" vertical-offset="14" max-vertical-offset="1037">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://maps.gstatic.com/maps-api-v3/api/js/20/1/main.js">
+>>>>>>> origin/master
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lib/angular/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.2723112" vertical-offset="0" max-vertical-offset="1748">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9430486" vertical-offset="474" max-vertical-offset="1139">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.598677" vertical-offset="3020" max-vertical-offset="3927">
+          <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scss/ifactor-incident.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="13838">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.138796" vertical-offset="2668" max-vertical-offset="3638">
+          <caret line="197" column="56" selection-start-line="197" selection-start-column="56" selection-end-line="197" selection-end-column="56" />
+          <folding />
+=======
+        <state vertical-scroll-proportion="0.33267328" vertical-offset="1296" max-vertical-offset="3723">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/css/IFBase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11862" max-vertical-offset="26486">
+          <caret line="712" column="18" selection-start-line="712" selection-start-column="18" selection-end-line="712" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/css/ifactor-base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9125" max-vertical-offset="12818">
+          <caret line="542" column="2" selection-start-line="542" selection-start-column="2" selection-end-line="542" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/images/default/streetlight_newly_reported_outage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/images/default/streetlight_new.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/images/default/streetlight_confirmed_outage_new.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/infobox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.009877978" vertical-offset="0" max-vertical-offset="1721">
+          <caret line="1" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="43" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapAlert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="969">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3319672" vertical-offset="14764" max-vertical-offset="15946">
+          <caret line="878" column="34" selection-start-line="878" selection-start-column="34" selection-end-line="878" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/infoBox.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.036796536" vertical-offset="0" max-vertical-offset="462">
+          <caret line="1" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="43" />
+=======
+        <state vertical-scroll-proportion="0.05971897" vertical-offset="0" max-vertical-offset="1708">
+          <caret line="6" column="73" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3349">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapInfoBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.33183858" vertical-offset="549" max-vertical-offset="9843">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="24" />
+          <folding>
+            <element signature="e#8136#8593#0" expanded="false" />
+            <element signature="e#8736#9749#0" expanded="false" />
+            <marker date="1426179419399" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1426179419399" expanded="true" signature="-1:-1" placeholder="..." />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="8279">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#13909#16347#0" expanded="false" />
+            <element signature="e#16403#16871#0" expanded="false" />
+            <element signature="e#16921#17166#0" expanded="false" />
+            <element signature="e#17225#17544#0" expanded="false" />
+            <element signature="e#17676#17942#0" expanded="false" />
+            <element signature="e#17992#18531#0" expanded="false" />
+            <element signature="e#25593#28829#0" expanded="false" />
+            <element signature="e#29506#29780#0" expanded="false" />
+            <element signature="e#29829#30095#0" expanded="false" />
+            <marker date="1425574833598" expanded="true" signature="13547:13560" placeholder="..." />
+            <marker date="1425574833598" expanded="true" signature="16035:16048" placeholder="..." />
+>>>>>>> origin/master
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/lib/angular/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1532" max-vertical-offset="3723">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/templates/alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13934426" vertical-offset="0" max-vertical-offset="1708">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/images/back-chevron@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapAlert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFStreetLightOutages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defaultIncident.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.5497835" vertical-offset="2177" max-vertical-offset="3196">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="3536">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="20" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapMgmtIncidentPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28278688" vertical-offset="321" max-vertical-offset="1717">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1348#2468#0" expanded="false" />
+            <element signature="e#2530#2984#0" expanded="false" />
+            <element signature="e#3500#4763#0" expanded="false" />
+            <element signature="e#4809#5411#0" expanded="false" />
+            <element signature="e#4880#5333#0" expanded="false" />
+            <element signature="e#5463#6104#0" expanded="false" />
+            <element signature="e#6158#6663#0" expanded="false" />
+            <element signature="e#6722#8699#0" expanded="false" />
+            <element signature="e#8761#9111#0" expanded="false" />
+            <element signature="e#9174#10930#0" expanded="false" />
+            <element signature="e#10988#11649#0" expanded="false" />
+            <element signature="e#11709#13299#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/mgmtIncidentPanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="1632" max-vertical-offset="2176">
+          <caret line="101" column="38" selection-start-line="101" selection-start-column="38" selection-end-line="101" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tfoot#0;n#table#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/mgmtInfoBox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="476">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMapMgmtInfoBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="3638">
+          <caret line="51" column="90" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12090164" vertical-offset="60" max-vertical-offset="10081">
+          <caret line="24" column="160" selection-start-line="24" selection-start-column="160" selection-end-line="24" selection-end-column="160" />
+          <folding>
+            <element signature="e#4173#4601#0" expanded="false" />
+            <element signature="e#8735#10291#0" expanded="false" />
+            <element signature="e#10336#10391#0" expanded="false" />
+            <element signature="e#10436#10491#0" expanded="false" />
+            <element signature="e#10537#10593#0" expanded="false" />
+            <element signature="e#10644#10699#0" expanded="false" />
+            <element signature="e#10785#10918#0" expanded="false" />
+            <element signature="e#10960#11331#0" expanded="false" />
+            <element signature="e#11380#11557#0" expanded="false" />
+            <element signature="e#11613#12074#0" expanded="false" />
+            <element signature="e#12118#14313#0" expanded="false" />
+            <element signature="e#14425#15700#0" expanded="false" />
+            <element signature="e#15764#16964#0" expanded="false" />
+            <element signature="e#17053#17746#0" expanded="false" />
+            <element signature="e#17811#19360#0" expanded="false" />
+            <element signature="e#19407#19699#0" expanded="false" />
+            <element signature="e#19756#22279#0" expanded="false" />
+            <element signature="e#22324#22425#0" expanded="false" />
+            <element signature="e#24534#25232#0" expanded="false" />
+            <element signature="e#25287#25486#0" expanded="false" />
+            <element signature="e#25538#26598#0" expanded="false" />
+            <element signature="e#26641#27648#0" expanded="false" />
+            <element signature="e#27708#27837#0" expanded="false" />
+            <element signature="e#27898#28026#0" expanded="false" />
+            <element signature="e#31785#31868#0" expanded="false" />
+            <element signature="e#36988#37083#0" expanded="false" />
+            <element signature="e#37126#37223#0" expanded="false" />
+            <element signature="e#37267#37353#0" expanded="false" />
+            <element signature="e#37396#37494#0" expanded="false" />
+            <element signature="e#37555#37659#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/images/default/lightIcons/png/25px/red/location.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="http://localhost:63342/iFactor.SLO4.Map/resources/ifactor/images/default/lightIcons/png/25px/red/location.png">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/ifactor/scripts/IFMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33305085" vertical-offset="15009" max-vertical-offset="16507">
+          <caret line="906" column="0" selection-start-line="906" selection-start-column="0" selection-end-line="906" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+>>>>>>> origin/master
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>iFactor</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<div id="info-panel" style="display: none;">
+    <div id="info-panel-bg"></div>
+    <div id="info-box">
+        <div class="title-bar"></div>
+        <div id="info-box-scroller">
+            <div id="info-box-content"></div>
+        </div>
+        <!--<hr style="margin-top: -25px"/>-->
+        <div id="info-box-tool-tray">
+            <div id="info-box-tool-tray-inner">
+            </div>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger btn-xs" data-toggle="dropdown">What do you want to do?
+                <span class="glyphicon glyphicon-cog"></span><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#" ng-click="updateIncidentStatus('additionalworkneeded')">Additional Work Needed</a></li>
+                <li><a href="#" ng-click="updateIncidentStatus('closed')">Close</a></li>
+                <li><a href="#" ng-click="updateIncidentStatus('notourlight')">Not Our Light</a></li>
+                <!--<li><a href="#" ng-click="updateIncidentStatus('resolved')">Resolved</a></li>-->
+            </ul>
+        </div>
+    </div>
+</div>

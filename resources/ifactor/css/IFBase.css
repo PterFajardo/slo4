@@ -1,0 +1,1553 @@
+/*********************************** FONTS ***********************************/
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../../resources/ifactor/fonts/icomoon.eot?mlqhjh');
+	src:url('../../../resources/ifactor/fonts/icomoon.eot?#iefixmlqhjh') format('embedded-opentype'),
+		url('../../../resources/ifactor/fonts/icomoon.woff?mlqhjh') format('woff'),
+		url('../../../resources/ifactor/fonts/icomoon.ttf?mlqhjh') format('truetype'),
+		url('../../../resources/ifactor/fonts/icomoon.svg?mlqhjh#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plus-2:before {
+	content: "\e605";
+}
+
+.icon-minus-2:before {
+	content: "\e604";
+}
+
+.icon-search-2:before {
+	content: "\e600";
+}
+
+.icon-toolbar-gps:before {
+	content: "\e601";
+}
+
+.icon-toolbar-menu:before {
+	content: "\e602";
+}
+
+.icon-toolbar-mylocation:before {
+	content: "\e603";
+}
+
+
+/*********************************** GENERAL ***********************************/
+
+* {
+	/* Removes orange focus outline on Android, etc. */
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+	-webkit-tap-highlight-color: transparent;
+}
+
+html {
+	height: 100%;
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	font: 100% "source-sans-pro-n4", "source-sans-pro", sans-serif;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+a {
+	color: #0088cc; /* default blue hard to see against black background of slide-out menu */
+	text-decoration: none;
+}
+
+input, select {
+	font: 100% "source-sans-pro-n4", "source-sans-pro", sans-serif;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+	font: 100% "source-sans-pro-n4", "source-sans-pro", sans-serif;
+	padding: 0;
+}
+
+button:focus {
+	outline: 0;
+}
+
+/* Removes Chrome search field clear button, etc. */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	display: none;
+}
+
+select option:disabled {
+	color: #cccccc;
+} 
+
+
+/*********************************** COMMON CLASSES ***********************************/
+
+.float-l {
+	float: left;
+}
+
+.float-r {
+	float: right;
+}
+
+.hinted-field {
+	color: #ccc;
+	font-style: italic;
+}
+
+.hinted-field.active {
+	color: #000;
+}
+
+.ui-widget {
+	font-family: "source-sans-pro-n4", "source-sans-pro", sans-serif !important;
+	font-size: 80% !important;
+}
+
+.ui-widget-content {
+	border-color: #9da1a7 !important; /* jamel's original: dbdcdf - bit too light */
+}
+
+.ui-slider-horizontal {
+	height: 5px !important;
+}
+
+.ui-slider-handle {
+	background: transparent url(../../../resources/ifactor/images/slider-handle@2x.png) 0 0 no-repeat !important;
+	background-size: 17px 17px !important;
+	border: none !important;
+	height: 17px !important;
+	outline: 0;
+	top: -6px !important;
+	width: 17px !important;
+}
+
+.auto-height {
+	height: auto;
+	overflow-y: auto;
+}
+
+.gpuAccelCapable {
+	transition: transform 200ms ease;
+	-webkit-transition: -webkit-transform 200ms ease;
+    -moz-transition: -moz-transform 200ms ease;
+    -ms-transition: -ms-transform 200ms ease;
+    -o-transition: -o-transform 200ms ease;
+	
+	/* To improve performance in 3d animations */
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	
+	/* To improve performance in 3d animations */
+	perspective: 1000px;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-ms-perspective: 1000px;
+	-o-perspective: 1000px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+/*********************************** MISC ***********************************/
+
+#scLanguage {
+	display: none;
+}
+
+#scStorageSpace {
+	display: none;
+}
+
+#scCountry {
+	display: none;
+}
+
+#scTimeZone {
+	display: none;
+}
+
+#image-preloader {
+	display: none;
+}
+
+#ifactorAlert {
+	display:none;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -150px;
+	width: 300px;
+	height: 50px;
+	background-color: #ee5f5b;
+	background-color: rgba(238, 95, 91, 0.9);
+	color: #ffffff;
+	border-radius: 10px;
+}
+
+#ifactorAlert #alertTable {
+	width: 100%; 
+	height: 100%;
+}
+
+
+
+/*********************************** MAP FRAME ***********************************/
+
+#sc-frame {
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+}
+
+/* Map X position when menu not open */
+#sc-frame.gpuAccelCapable {
+	transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+}
+
+/* Map X position when menu open */
+#sc-frame.gpuAccelCapable.hidden {
+	width: 75%;
+	transform: translate3d(33.3%, 0, 0);
+	-webkit-transform: translate3d(33.3%, 0, 0);
+	-moz-transform: translate3d(33.3%, 0, 0);
+	-ms-transform: translate3d(33.3%, 0, 0);
+	-o-transform: translate3d(33.3%, 0, 0);
+}
+
+
+#sc-frame.collapsed {
+	transform: translate3d(25%, 0, 0);
+	-webkit-transform: translate3d(25%, 0, 0);
+	-moz-transform: translate3d(25%, 0, 0);
+	-ms-transform: translate3d(25%, 0, 0);
+	-o-transform: translate3d(25%, 0, 0);
+}
+
+#sc-frame.no-animate {
+	transition: transform 0ms ease;
+	-webkit-transition: -webkit-transform 0ms ease;
+    -moz-transition: -moz-transform 0ms ease; /* unit (ms) required by FF and possibly some other browsers, even if 0 */
+    -ms-transition: -ms-transform 0ms ease;
+    -o-transition: -o-transform 0ms ease;
+}
+
+
+
+
+/*********************************** MAP ***********************************/
+
+#map {
+	background-color: gray;
+	height: 100%;
+	width: 100%;
+	/*-webkit-transform: translate3d(0,0,0) !important;*/
+}
+
+
+
+
+/*********************************** ZOOM BUTTONS ***********************************/
+
+.btn-zoom {
+	background: #999;
+	border: 3px solid #efefef;
+	border-radius: 20px;
+	z-index: 6; /* needed by IE8 for Leaflet */
+	position: absolute;
+	/*left: 60px;*/
+	left: 7%;
+	width: 40px;
+	height: 40px;
+	/*display: none;*/ /* Hide in browsers that support pinch */
+	color: #fff;
+}
+
+#btn-zoom-in {
+/*	background-image: url(../../../resources/ifactor/images/bn-zoom-in.png);*/
+	top:90px;
+}
+
+#btn-zoom-out {
+	/*background-image: url(../../../resources/ifactor/images/bn-zoom-out.png);*/
+	top:140px;
+}
+
+
+
+
+/*********************************** HEADER PANEL ***********************************/
+
+#header-panel {
+	/*filter: alpha(opacity=95);
+	opacity: 0.95;*/
+	/*left: 84px;
+	top: 25px;*/
+	/*width: 464px;*/
+	min-width: 300px;
+	left: 0;
+	top: 0;
+	height: 75px;
+	width: 100%;
+	position: absolute;
+	z-index: 10; /* z-index of at least 2 needed by IE8 for Leaflet */
+	-webkit-transform: translate3d(0,0,0);
+	background: rgba(255,255,255,0.9);
+}
+
+.header-bar-btn {
+	background-color: transparent;
+	border-right: 1px solid #d8d9db;
+	float: left;
+	height: 100%;
+	font-size: 1.5em;
+	width: 68px;
+	color: #adbac3;
+}
+
+.header-bar-btn:hover {
+	color: #666;
+}
+
+.header-bar-logo {
+	background: url(../../../resources/ifactor/images/default/powered_by_slo.png) no-repeat;
+    /*background-size: 194px 45px;*/
+    width: 194px;
+    height: 45px;
+	margin: 10px 10px 0 0;
+	position: absolute;
+	right: 10px;
+}
+
+.header-bar-link {
+	position: absolute;
+	top: 40px;
+}
+
+#link-english-page {
+	right: 330px;
+}
+
+#link-spanish-page {
+	right: 250px;
+}
+
+
+
+
+/*********************************** SEARCH PANEL ***********************************/
+
+#search-bar {
+	float: left;
+	height: 100%;
+	position: relative;
+	width: 450px;
+	top: 15px;
+}
+
+#search-field {
+	background-size: 15px 15px;
+	border: 1px solid #d8d9db;
+	border-radius: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-size: 90%;
+	height: 30px;
+	left: 5px;
+	padding-left: 10px;
+	padding-right: 25px;
+	position: relative;
+	top: 6px;
+	width: 370px;
+	-webkit-appearance: none;
+	background-color: #ffffff;
+}
+
+
+/*********************************** MENU PANEL ***********************************/
+
+	
+#menu-panel {
+	position: absolute;
+	top: 0px;
+	/*bottom: auto;*/
+	color: #fff;
+	display: none;
+	height: 100%;
+	left: 0;
+	overflow-y: auto;
+	width: 25%;
+	-webkit-overflow-scrolling: touch;
+	z-index: 9; /* needed by IE8 for Leaflet */
+	background-color: rgba(0, 0, 0);  /* Fallback color for browsers not supported */
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#menu-panel.gpuAccelCapable {
+	display: block;
+	
+	transition: transform 0ms ease;
+	-webkit-transition: -webkit-transform 0ms ease;
+	-moz-transition: -moz-transform 0ms ease;
+	-ms-transition: -ms-transform 0ms ease;
+	-o-transition: -o-transform 0ms ease;
+	
+	transform: translate3d(-100%, 0, 0);
+	-webkit-transform: translate3d(-100%, 0, 0);
+	-moz-transform: translate3d(-100%, 0, 0);
+	-ms-transform: translate3d(-100%, 0, 0);
+	-o-transform: translate3d(-100%, 0, 0);
+}
+	
+#menu-panel.expanded, #menu-panel.collapsing {
+	transition: transform 200ms ease;
+	-webkit-transition: -webkit-transform 200ms ease;
+	-moz-transition: -moz-transform 200ms ease;
+	-ms-transition: -ms-transform 200ms ease;
+	-o-transition: -o-transform 200ms ease;
+}
+	
+#menu-panel.expanded {
+	transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+}
+
+#ifactorMenuButton {
+     position: absolute;
+     top:50%;
+     left: 0;
+     margin-top: -50px;
+     margin-right: 0%;
+     width: 30px;
+     height: 50px;
+     background-color: black;
+     color: #ffffff;
+}
+
+
+#tab-bar {
+	background-color: #7ab800;
+	float: left;
+	height: 100%;
+	width: 58px;
+}
+
+#tab-bar a {
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	height: 40px;
+	width: 100%;
+}
+
+#menu-content {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: auto;
+	left: 0;
+	padding: 70px 0 0 0;
+	position: absolute;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#menu-content #menu-content-holder {
+	padding: 20px;
+}
+
+#menu-content .subrow {
+	background-color: #a5aaad;
+	background-image: url(../../../resources/ifactor/images/chevron@2x.png);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	border-top: 1px solid #b8b8b8;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: #eee;
+	cursor: pointer;
+	display: block;
+	height: 44px;
+	left: 0;
+	line-height: 44px;
+	padding: 0 30px;
+	right: 0;
+	width: 100%;
+}
+
+
+.expandable-content {
+	box-sizing: border-box;
+	display: none;
+	padding: 20px;
+	width: 100%;
+}
+
+#menu-content div hr {
+	background-color: #a3a8a9;
+	border: none;
+	height: 1px;
+	margin: 10px 0;
+	/*width: 190px;*/
+}
+
+#menu-content div span.heading {
+	color: #90959c;
+	display: block;
+	font-size: 110%;
+}
+
+#menu-content div span.subheading {
+	color: #90959c;
+	display: block;
+	font-size: 95%;
+}
+
+
+#menu-content div.selected {
+	display: block;
+}
+
+.legend-item {
+	border-top: 1px solid #a3a8a9;
+	padding: 10px 0 !important
+}
+
+#menu-content #menu-content-summary {
+	padding: 0;
+}
+
+#menu-content #legend-content {
+	/*display: block;*/
+	padding: 20px 0 0 0 !important;
+}
+
+#menu-content-legend label,
+#menu-content-layers label {
+	font-size: 90%;
+}
+
+#menu-content #menu-content-legend hr {
+	margin: 15px 0;
+}
+
+#service-areas-boundary {
+}
+
+#legend-select {
+	margin-top: 8px;
+}
+
+#legend-content div div {
+	display: block;
+}
+
+#legend-content img,
+#service-line-icon {
+	height: 25px !important;
+	margin-right: 8px;
+	width: 25px !important;
+	vertical-align: -8px;
+}
+
+#dynamic-legend-content img {
+	margin-right: 8px;
+	vertical-align: -8px;
+}
+
+#service-area-toggle {
+	margin: 5px 0 10px;
+}
+
+#service-area-toggle img {
+	margin-right: 15px;
+}
+
+.switch-button-background {
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+}
+
+#branding-logo {
+	opacity: 0.8;
+	position: absolute;
+	bottom: 45px;
+	right: 90px;
+	width: 100px;
+	height: 35px;
+	background: transparent url(../../../resources/ifactor/images/ifac-logo-main-gray.png) 0 0 no-repeat !important;
+}
+
+/*********************************** LAYERS PANEL ***********************************/
+
+#menu-content #mapbase-select {
+	font-size:90%;
+	margin: 10px 0 15px;
+}
+
+#menu-content #menu-content-layers-dynamic-heading {
+	display: none;
+	padding: 10px 0;
+	border-top: 1px solid #a3a8a9;
+}
+
+#menu-content #dynamic-legend-content {
+}
+
+
+/*********************************** BOOKMARK PANEL ***********************************/
+
+#menu-content-bookmarks button {
+	text-align: left;
+	padding: 0 27px 0 5px;
+	width: 100%;
+	min-height: 35px;
+	color:#fff;
+	background-color: #999;
+	background-position: right 5px center;
+	background-repeat: no-repeat;background-size: 18px 18px;
+}
+
+#menu-bookmarks-add-bookmark {
+	display: block;
+	background-image: url('../../../resources/ifactor/images/icon-plus.png');
+}
+
+#menu-bookmarks-cancel-bookmark {
+	display: none;
+	background-image: url('../../../resources/ifactor/images/icon-minus.png');
+}
+
+#menu-bookmarks-list-div {
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+	margin-top: 20px;
+}
+
+#menu-bookmarks-bookmark-name {
+	width: 100%;
+	margin-top: 10px;
+	display: none;
+}
+
+#menu-bookmarks-list-span {
+    vertical-align: middle;
+}
+
+#menu-bookmarks-bookmark-list {
+	list-style-type: none;
+    padding: 0;
+	margin: 0;
+}
+
+#menu-bookmarks-bookmark-list li {
+	border-top: 1px solid #ccc;
+	cursor: pointer;
+	float: left;
+	width: 100%;
+}
+
+#menu-bookmarks-bookmark-list li a {
+	color: #90959c;
+	padding: 10px 0;
+	display: block;
+	width: 10%;
+	display: inline-block;
+}
+
+#menu-bookmarks-bookmark-list li a:first-child {
+	width: 90%;
+}
+
+#menu-bookmarks-bookmark-list li .delete-bookmark {
+	background-image: url('../../../resources/ifactor/images/infobox-clear.png');
+	background-position: center center;
+	background-repeat: no-repeat;background-size: 30px 30px;
+	vertical-align: middle;
+}
+
+
+/*********************************** INFO PANEL ***********************************/
+
+#info-panel {
+	display: none;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 354px;
+	z-index: 8; /* needed by IE8 for Leaflet */
+	/*-webkit-transform: translate3d(0,0,0);*/
+}
+
+#info-panel.gpuAccelCapable {
+	display: block;
+	transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+}
+
+#info-panel.gpuAccelCapable.hidden {
+	transform: translate3d(100%, 0, 0);
+	-webkit-transform: translate3d(100%, 0, 0);
+	-moz-transform: translate3d(100%, 0, 0);
+	-ms-transform: translate3d(100%, 0, 0);
+	-o-transform: translate3d(100%, 0, 0);
+}
+
+#info-panel-bg {
+	background-color: #80888d;
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+	height: 100%;
+	width: 100%;
+}
+
+#info-box {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 100%;
+	overflow: hidden;
+	padding: 90px 20px 80px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	/*opacity: 0.5;*/
+}
+
+.title-bar {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: #fff;
+	font-size: 105%;
+	height: 40px;
+	padding: 9px 0 0;
+	width: 100%;
+	font-weight: bold;
+	border-bottom: 3px solid #26c7de;
+	text-transform: uppercase;
+}
+
+#info-box-scroller {
+	/*background-color: #fff;
+	filter: alpha(opacity=95);
+	max-height: 80%;*/
+	opacity: 0.95;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+	-webkit-overflow-scrolling: touch;
+	max-height: 90%;
+}
+
+#info-box-content {
+	/*background-color: #fff;*/
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: #fff;
+	font-size: 90%;
+	padding: 20px 0;
+	width: 100%;
+}
+
+#info-box-content img {
+	max-width: 100%;
+}
+
+#info-box-content p {
+	margin: 0px 0px 5px 0px;
+}
+
+#info-box-content span {
+	/*display: block;*/
+}
+
+#info-box-content .info-box-field-label {
+	font-weight: 700;
+	padding-right: 7px;
+}
+
+#info-box-content .info-box-field-value {
+	white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	white-space: pre-wrap;       /* css-3 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	word-break: break-all;
+	white-space: normal;
+}
+
+#info-box-tool-tray {
+	/*background: #fff url(../../../resources/ifactor/images/infobox-divider.png) no-repeat left 10px;*/
+	/*background-color: #fff;
+	filter: alpha(opacity=95);
+	opacity: 0.95;*/
+	border-top: 1px solid #ccc;
+	font-size: 0;
+	max-height: 66px;
+	overflow: hidden;
+	padding-top: 10px;
+	/*text-align: center;*/
+	width: 100%;
+	border-top: 2px solid #d6d6d6;
+}
+
+#info-box-tool-tray-inner {
+	display: inline-block;
+	height: 100%;
+	float: right;
+}
+
+
+/* ************************************************* */
+#info-box-nav-tray {
+	/*background-color: #777;*/
+	box-sizing: border-box;
+	padding: 5px;
+	/*filter: alpha(opacity=95);
+	opacity: 0.95;*/
+	font-size: 16px;
+	color: #fff;
+	max-height: 66px;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	/*border-bottom: 2px solid #d6d6d6;*/
+	background-color: #d6d6d6;
+	margin: 5px 0 0;
+}
+
+#info-box-nav-tray-inner {
+	display: inline-block;
+	height: 100%;
+}
+
+#info-box-nav-tray button {
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: none;
+	height: 29px;
+	width: 40px;
+	display: inline-block;
+}
+#info-box-nav-prev {
+	background-image: url(../../../resources/ifactor/images/infobox-back.png);
+	vertical-align: 3px;
+}
+
+#info-box-nav-next {
+	background-image: url(../../../resources/ifactor/images/infobox-next.png);
+	vertical-align: 3px;
+}
+
+.info-box-nav-div-btn {
+	width: 40px;
+	display: inline-block;
+}
+
+#info-box-nav-label {
+    display: inline-block;
+    width: 110px;
+}
+
+.info-box-nav-label-text {
+}
+
+/* ************************************************* */
+
+
+#info-box-tool-tray button {
+	background-color: transparent;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 100%;
+	/*display: none;*/
+	float: left;
+	height: 100%;
+	/*width: 70px;*/  /* Goes with 'text-align: center;' in #info-box-tool-tray */
+	/*width: 100%;*/
+	margin: 3px;
+}
+
+#info-box-report {
+	background-image: url(../../../resources/ifactor/images/infobox-report@2x.png);
+}
+
+#info-box-status {
+	background-image: url(../../../resources/ifactor/images/infobox-status@2x.png);
+}
+
+#info-box-zoom {
+	background-image: url(../../../resources/ifactor/images/infobox-zoom@2x.png);
+}
+
+#info-box-info {
+	background-image: url(../../../resources/ifactor/images/infobox-status@2x.png);
+}
+
+#info-box-clear {
+	background-image: url(../../../resources/ifactor/images/infobox-clear@2x.png);
+}
+
+#info-box-subscribe-outage {
+	background-image: url(../../../resources/ifactor/images/infobox-info@2x.png);
+}
+
+
+/*********************************** ALERT PANEL ***********************************/
+
+#alert-panel {
+	display: none;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	color: #686868;
+	background-color; #fff;
+	z-index: 100;
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+#alert-panel-header {
+	height: 80px;
+	width: 100%;
+	top: 0;
+	padding: 10px 15px 10px 35px;
+	border-bottom: 3px solid #26c7de;
+	position: fixed;
+	z-index: 101;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+#alert-panel-body {
+	top: 80px;
+	position: absolute;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 15px 20px 25px;
+	background: #fff;
+	z-index: 100;
+	width:100%
+}
+
+/*#alert-panel {
+	display: none;
+    box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    color: #686868;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#alert-panel-header {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 3px solid #26c7de;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    height: 80px;
+    padding: 10px 15px 10px 35px;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+}
+
+#alert-panel-body {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    max-height: 85%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 15px 20px 25px;
+    width: 100%;
+    z-index: 100;
+	-webkit-overflow-scrolling: touch;
+}*/
+
+#alert-panel-header-title {
+	background: url(../../../resources/ifactor/images/ifac-logo-main.png) no-repeat;
+	background-size: 210px 60px;
+	float: left;
+	width: 210px;
+	height: 60px;
+}
+
+#alert-panel-header-close {
+	background: url(../../../resources/ifactor/images/btn-close-panel.png) no-repeat;
+	background-size: 60px 60px;
+	float: right;
+	width: 60px;
+	height: 60px;
+}
+
+#alert-panel-title {
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#alert-panel-long-text {
+    padding: 30px 0 0;
+}
+
+/*********************************** REPORT PANEL ***********************************/
+
+.report-panel {
+	display: none;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	color: #686868;
+	background-color; #fff;
+	z-index: 100;
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.report-panel .report-panel-header {
+	height: 80px;
+	width: 100%;
+	top: 0;
+	padding: 10px 15px 10px 35px;
+	border-bottom: 3px solid #26c7de;
+	position: fixed;
+	z-index: 101;
+	background: #fff;
+	box-sizing: border-box;
+	overflow: hidden;
+	min-width: 330px;
+}
+
+.report-panel .report-panel-body {
+	top: 80px;
+	position: absolute;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 0;
+	background: #fff;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+}
+
+.report-panel .report-panel-header-title {
+	background: url(../../../resources/ifactor/images/ifac-logo-main.png) no-repeat;
+	background-size: 210px 60px;
+	float: left;
+	width: 210px;
+	height: 60px;
+}
+
+.report-panel .report-panel-header-close {
+	background: url(../../../resources/ifactor/images/btn-close-panel.png) no-repeat;
+	background-size: 60px 60px;
+	float: right;
+	width: 60px;
+	height: 60px;
+}
+
+.report-panel .report-panel-description {
+	border-bottom: 1px solid #90959c;
+    padding: 15px 20px 20px;
+    text-align: left;
+}
+
+.report-panel .report-panel-data {
+    padding: 2px 0 67px;
+}
+
+
+.report-panel .report-panel-data > span {
+	display: block;
+    padding: 20px;
+}
+
+
+.report-panel .report-panel-footer {
+	height: 65px;
+	width: 100%;
+	bottom: 0;
+	padding: 10px 20px;
+	border-top: 3px solid #26c7de;
+	position: fixed;
+	z-index: 101;
+	background: #fff;
+	box-sizing: border-box;
+	overflow: hidden;
+	min-width: 330px;
+	font-size: 95%;
+}
+
+.report-panel .report-panel-footer .totals-left {
+	float: left;
+}
+
+.report-panel .report-panel-footer .totals-right {
+	float: right;
+}
+
+
+/*********************************** DIALOGS ***********************************/
+
+.sc-dialog .ui-widget-header {
+    background-color: #7ab800;
+	background-image: none;
+    border: 1px solid #aaaaaa;
+    color: #fff;
+	font-size: 120%;
+}
+
+.sc-dialog.ui-dialog .ui-dialog-buttonpane button {
+	margin: 0.3em 0.4em 0.1em 0;
+}
+
+.sc-dialog.ui-dialog .ui-dialog-buttonpane button .ui-button-text {
+	font-size: 120%;
+	padding: 0.5em 1.2em;
+}
+
+.no-close .ui-dialog-titlebar-close {
+	display: none;
+}
+
+
+/*********************************** ALERTS ***********************************/
+
+#alert-banner {
+	position: absolute;
+	top: 75px;
+	width: 100%;
+	text-align: center;
+	z-index: 4;
+	display: none;
+	cursor: pointer;
+}
+
+#alert-banner-inner {
+	/*display: inline-flex;*/
+	margin: 0px auto;
+	max-width: 550px;
+	min-width: 450px;
+	font-weight: bold;
+	color: #fff;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+	
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#alert-banner-content {
+	background-color: #f00;
+	font-size: 110%;
+    padding-top: 3px;  /* Will depend on the font-size */
+	width: 100%;
+    margin: 0;
+    text-align: center;
+	
+    /*overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;*/
+}
+
+#alert-banner-left {
+	border-right: 32px solid #f00;
+	border-bottom: 32px solid transparent;
+	border-top: 0px solid transparent;
+	height: 0px;
+}
+
+#alert-banner-right {
+	border-left: 32px solid #f00;
+	border-bottom: 32px solid transparent;
+	border-top: 0px solid transparent;
+	height: 0px;
+}
+
+
+/*********************************** MEDIA QUERIES ***********************************/
+
+@media screen and (max-width: 1099px)
+{
+	/* Map X position when menu open */
+	#sc-frame.gpuAccelCapable.hidden {
+		width: 825px;
+		transform: translate3d(275px, 0, 0);
+		-webkit-transform: translate3d(275px, 0, 0);
+		-moz-transform: translate3d(275px, 0, 0);
+		-ms-transform: translate3d(275px, 0, 0);
+		-o-transform: translate3d(275px, 0, 0);
+	}
+	
+	#sc-frame.collapsed {
+		transform: translate3d(275px, 0, 0);
+		-webkit-transform: translate3d(275px, 0, 0);
+		-moz-transform: translate3d(275px, 0, 0);
+		-ms-transform: translate3d(275px, 0, 0);
+		-o-transform: translate3d(275px, 0, 0);
+	}
+	
+	#menu-panel {
+		width: 275px;
+	}
+
+}
+
+/*@media screen and (min-width: 825px)*/
+/* Large viewport experience */
+@media screen and (min-width: 760px)
+{
+	/*#menu-panel {
+		display: block !important;
+	}*/
+	
+	/*#menu {
+		display: none !important;
+	}*/
+	
+	/*#sc-frame {
+		display: block !important;
+		left: 0 !important;
+		width: 100% !important;
+	}*/
+	
+	/*#report-panel {
+		display: none !important;
+	}*/
+	
+	/*
+	#alert-panel {
+		display: none !important;
+	}
+	*/
+	
+	#header-panel {
+		min-width: 481px;
+	}
+
+}
+
+/* 824-width and smaller viewport rules */
+/*@media screen and (max-width: 824px)*/
+/* 759-width and smaller viewport rules */
+@media screen and (max-width: 759px)
+{
+
+	.ui-slider-handle {
+		background: transparent url(../../../resources/ifactor/images/slider-handle-large@2x.png) 0 0 no-repeat !important;
+		background-size: 22px 22px !important;
+		height: 22px !important;
+		top: -9px !important;
+		width: 22px !important;
+	}
+	
+	#weather-opacity-slider {
+		background: #201f20 url(../../../resources/ifactor/images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;  /* This image does not exist */
+		margin-left: 18px; /* larger slider handle needs a bit more room */
+	}
+
+	.btn-zoom {
+		left: 9px;
+	}
+	
+	#btn-zoom-in {
+		top: 58px;
+	}
+	
+	#btn-zoom-out {
+		top: 105px;
+	}
+	
+	#header-panel {
+		height: 50px;
+	}
+	
+	.header-bar-logo {
+		background: url(../../../resources/ifactor/images/ifac-logo-small.png) no-repeat;
+		background-size: 40px 40px;
+		width: 40px;
+		height: 40px;
+		margin: 5px 5px 0 0;
+	}
+
+	.header-bar-link {
+		top: 25px;
+	}
+
+	#link-english-page {
+		right: 160px;
+	}
+
+	#link-spanish-page {
+		right: 85px;
+	}
+	
+	#btn-bookmark {
+		display: none;
+		top: 10px;
+	}
+	
+	#info-panel {
+		bottom: 0;
+		height: auto;
+		left: 0;
+		min-width: 300px;
+		top: auto;
+		width: 100%;
+	}
+
+	#info-panel.gpuAccelCapable.hidden {
+		transform: translate3d(0, 100%, 0);
+		-webkit-transform: translate3d(0, 100%, 0);
+		-moz-transform: translate3d(0, 100%, 0);
+		-ms-transform: translate3d(0, 100%, 0);
+		-o-transform: translate3d(0, 100%, 0);
+	}
+	
+	#info-panel-bg {
+		position: absolute;
+	}
+	
+	#info-box {
+		padding-bottom: 0;
+		padding-top: 5px;
+		position: relative;
+	}
+	
+	#info-box-content {
+		padding: 15px 0px 10px;
+	}
+	
+	#info-box-tool-tray {
+		/*background: #fff;*/
+		border-top: 2px solid #d6d6d6;
+		max-height: 44px;
+		padding-top: 0;
+	}
+	
+	#info-box-tool-tray button {
+		height: 44px;
+	}
+	
+	#info-box-nav-tray {
+		padding: 0;
+	}
+	
+	#search-panel {
+		top: 55px;
+	}
+	
+	#search-panel-inner {
+		height: 55px;
+	}
+	
+	#search-bar {
+		width: 295px;
+	}
+	
+	#search-field {
+		font-size: 80%;
+		top: 8px;
+		width: 270px;
+		left:13px;
+	}
+	
+	#info-box-content span {
+		display: inline-block;
+	}
+	
+	#alert-banner {
+		top: 50px;
+	}
+	
+	#alert-banner-inner {
+		max-width: 450px;
+		min-width: 400px;
+	}
+	
+	/* Map X position when menu open */
+	/*#sc-frame.gpuAccelCapable.hidden {
+		width: 25%;
+		transform: translate3d(300%, 0, 0);
+		-webkit-transform: translate3d(300%, 0, 0);
+		-moz-transform: translate3d(300%, 0, 0);
+		-ms-transform: translate3d(300%, 0, 0);
+		-o-transform: translate3d(300%, 0, 0);
+	}
+	
+	#sc-frame.collapsed {
+		transform: translate3d(75%, 0, 0);
+		-webkit-transform: translate3d(75%, 0, 0);
+		-moz-transform: translate3d(75%, 0, 0);
+		-ms-transform: translate3d(75%, 0, 0);
+		-o-transform: translate3d(75%, 0, 0);
+	}
+	
+	#menu-panel {
+		width: 75%;
+	}*/
+}
+
+/* 480-width and smaller viewport rules */
+/*@media screen and (max-width: 480px)*/
+/* 560-width and smaller viewport rules */
+@media screen and (max-width: 560px)
+{
+
+	.header-bar-btn {
+		width: 44px;
+	}
+
+	#search-panel {
+		left: 55px;
+		background-position: 86px top;
+	}
+	
+	#search-bar {
+		width: 259px;
+	}
+	
+	#search-field {
+		width: 239px;
+		left: 10px;
+	}
+	
+	#alert-banner-inner {
+		max-width: 300px;
+		min-width: 270px;
+	}
+	
+	.report-panel .report-panel-description {
+		display: none;
+	}
+	
+	.report-panel .report-panel-footer {
+		display: none;
+	}
+	
+	.report-panel .report-panel-body {
+		padding-bottom: 0;
+	}
+	
+	.report-panel .report-panel-data {
+		padding-bottom: 10px;
+	}
+
+	#link-english-page {
+		right: 150px;
+	}
+	
+	#link-spanish-page {
+		right: 80px;
+	}
+
+}
+
+
+/* 360 and smaller viewport rules */
+/*@media screen and (max-width: 360px)*/
+/* 390 and smaller viewport rules */
+@media screen and (max-width: 390px)
+{
+	.header-bar-btn {
+		width: 41px; /* 35px - jamel's original. very narrow */
+	}
+
+	#search-panel {
+		background-position: 75px top;
+	}
+	
+	#search-bar {
+		width: 229px;
+	}
+	
+	#search-field {
+		width: 209px;
+		left: 10px;
+	}
+	
+	#alert-banner-inner {
+		max-width: 240px;
+		min-width: 230px;
+	}
+	
+	.header-bar-logo {
+		right: 0;
+	}
+	
+	#link-english-page {
+		right: 120px;
+	}
+	
+	#link-spanish-page {
+		right: 55px;
+	}
+	
+}
+
+@media screen and (max-width: 340px)
+{
+	
+	#link-english-page {
+		top: 5px;
+		right: 55px;
+	}
+	
+	#link-spanish-page {
+		right: 55px;
+	}
+
+}

@@ -1,0 +1,45 @@
+@mixin transition ($time, $easing) {
+		transition: transform $time $easing;
+		-webkit-transition: -webkit-transform $time $easing;
+		-moz-transition: -moz-transform $time $easing;
+		-ms-transition: -ms-transform $time $easing;
+		-o-transition: -o-transform $time $easing;
+}
+
+@mixin transform ($x, $y, $z) {
+	transform: translate3d($x, $y, $z);
+	-webkit-transform: translate3d($x, $y, $z);
+	-moz-transform: translate3d($x, $y, $z);
+	-ms-transform: translate3d($x, $y, $z);
+	-o-transform: translate3d($x, $y, $z);
+}
+
+@mixin backface ($v) {
+	backface-visibility: $v;
+	-webkit-backface-visibility: $v;
+	-moz-backface-visibility: $v;
+	-ms-backface-visibility: $v;
+	-o-backface-visibility: $v;
+}
+
+@mixin perspective ($v) {
+	perspective: $v;
+	-webkit-perspective: $v;
+	-moz-perspective: $v;
+	-ms-perspective: $v;
+	-o-perspective: $v;
+}
+
+@mixin transformScaleY ($v) {
+	transform: scaleY($v);
+	-webkit-transform: scaleY($v);
+	-moz-transform: scaleY($v);
+	-ms-transform: scaleY($v);
+}
+
+@mixin transitionOpacity ($time, $easing) {
+	-webkit-transition: opacity $time $easing;
+	-moz-transition: opacity $time $easing;
+	-ms-transition: opacity $time $easing;
+	transition: opacity $time $easing;
+}

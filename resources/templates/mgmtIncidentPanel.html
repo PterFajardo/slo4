@@ -1,0 +1,83 @@
+<div id="menu-panel">
+    <div id="menu-content">
+    	<div id="menu-header" class="menu-row">
+    	</div>
+		<a class="collapsed expandable menu-row" data-target="menu-content-legend">
+			<span id="legend-icon" class="menu-icon icon-compass"></span>
+			<span id="menu-legend" class="menu-label resp-text">Search Incidents</span>
+			<span class="menu-arrow icon-triangle-right"></span>
+		</a>
+		<div id="menu-content-legend" class="expandable-content">
+			<div class="expandable-content-padding">
+				<span id="menu-content-legend-heading" class="heading">
+				</span>
+				<div id="legend-content">
+                    <div>
+                        <div>
+                            <label>From</label>
+                            <div class="input-append">
+                                <input class="span3" id="fromSearchCalendar" type="text">
+                                <button class="btn" type="button"><i class="icon-calendar"></i></button>
+                            </div>
+                        </div>
+                        <div>
+                            <label>To</label>
+                            <div class="input-append">
+                                <input class="span3" id="toSearchCalendar" type="text">
+                                <button class="btn" type="button"><i class="icon-calendar"></i></button>
+                            </div>
+                        </div>
+                        <div>
+                            <label>Keywords(s)</label>
+                            <p>
+                                <input type="text" class="span4" id="searchKeyword" />
+                            </p>
+                        </div>
+                    </div>
+                        <div style="padding-bottom: 30px;">
+                            <button type="button" class="btn btn-primary pull-right">Search</button>
+                        </div>
+				</div>
+			</div>
+		</div>
+
+		<a class="collapsed expandable menu-row" data-target="menu-content-legend">
+			<span id="legend-icon" class="menu-icon icon-info-with-circle"></span>
+			<span id="menu-legend" class="menu-label resp-text">Incidents</span>
+			<span class="menu-arrow icon-triangle-right"></span>
+		</a>
+        <div id="menu-content-legend" class="expandable-content">
+            <div class="expandable-content-padding">
+                <span id="menu-content-legend-heading" class="heading"></span>
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="bg-primary">
+                            <th>ID</th>
+                            <th>Status</th>
+                            <th>Name</th>
+                            <th>Reported Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="incident in incidentList" ng-click="getDetail(incident)">
+                            <td>{{incident.sloId}}</td>
+                            <td><img src={{incident.lightIcon}} alt={{incident.status}} title={{incident.status}}></td>
+                            <td>{{incident.contactName}}</td>
+                            <td>{{incident.dateReported}}</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="10" style="font-size:x-small; font-weight:bold; text-align:center;">
+                                <em>
+                                * StreetLightOutages.com will attempt to deliver information about all reported problems to the appropriate companies or agencies. We cannot guarantee that the responsible party will be informed about these reports or provide any warranty of action to resolve a reported problem.
+                                </em>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

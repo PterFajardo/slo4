@@ -1,0 +1,844 @@
+@import '_resets';
+@import '_fonts';
+@import '_mixins';
+@import '_variables';
+
+/*********************************** COMMON CLASSES ***********************************/
+
+.float-l {
+	float: left;
+}
+
+.float-r {
+	float: right;
+}
+
+.hinted-field {
+	color: #ccc;
+	font-style: italic;
+}
+
+.hinted-field.active {
+	color: #000;
+}
+
+.ui-widget {
+	font-family: "source-sans-pro-n4", "source-sans-pro", sans-serif !important;
+	font-size: 80% !important;
+}
+
+.ui-widget-content {
+	border-color: #9da1a7 !important; /* jamel's original: dbdcdf - bit too light */
+}
+
+.ui-slider-horizontal {
+	height: 5px !important;
+}
+
+.ui-slider-handle {
+	background: transparent url('../../../resources/ifactor/images/slider-handle@2x.png') 0 0 no-repeat !important;
+	background-size: 17px 17px !important;
+	border: none !important;
+	height: 17px !important;
+	outline: 0;
+	top: -6px !important;
+	width: 17px !important;
+}
+
+.auto-height {
+	height: auto;
+	overflow-y: auto;
+}
+
+.gpuAccelCapable {
+	@include transition(200ms, ease);
+	
+	/* To improve performance in 3d animations */
+	@include backface("hidden");
+	
+	/* To improve performance in 3d animations */
+	@include perspective("1000px");
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.info-msg {
+	color: orange;
+}
+
+
+/*********************************** MISC ***********************************/
+
+#image-preloader {
+	display: none;
+}
+
+#ifactorAlert {
+	display:none;
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	margin: -50px 0 0 -150px;
+	width: 300px;
+	height: 50px;
+	color: $color-white;
+	border-radius: 10px;
+
+	#alertTable {
+		width: 100%; 
+		height: 100%;
+	}
+
+	&.good {
+		background-color: #79b800;
+		background-color: rgba(121, 184, 0, 0.9);
+	}
+	&.bad {
+		background-color: #ee5f5b;
+		background-color: rgba(238, 95, 91, 0.9);
+	}
+	&.ugly {
+		background-color: #666;
+		background-color: rgba(102, 102, 102, 0.9);
+	}
+
+}
+
+#scStorageSpace {
+	display: none;
+}
+
+/*********************************** MAP FRAME ***********************************/
+
+#sc-frame {
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	height: 100%;
+	width: 96%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin-left: 4%;
+
+	#header-panel {
+		#btn-menu {
+			.icon-toolbar-menu {
+				display: inline;
+			}				
+			.icon-cross {
+				display: none;
+			}
+		}
+	}
+
+	&.gpuAccelCapable {
+		@include transform(0, 0, 0);
+
+		&.hidden {
+			width: 75%;
+			margin-left: 0;
+			@include transform(33.3%, 0, 0);
+		}
+	}
+
+	&.collapsed {
+		width: 75%;
+		margin-left: 0;
+		@include transform(33.3%, 0, 0);
+
+		#header-panel {
+			#btn-menu {
+				.icon-toolbar-menu {
+					display: none;
+				}				
+				.icon-cross {
+					display: inline;
+				}
+			}
+		}
+	}
+
+	&.no-animate {
+		@include transition(0ms, ease);
+	}
+
+	&.legacy-col {
+		#header-panel {
+			#btn-menu {
+				.icon-toolbar-menu {
+					display: none;
+				}				
+				.icon-cross {
+					display: inline;
+				}
+			}
+		}
+	}
+}
+
+#btn-menu {
+	font-size: 1.3em;
+	margin-left: 10px;
+}
+
+/*********************************** MAP ***********************************/
+
+#map {
+	height: 100%;
+	width: 100%;
+}
+
+/*********************************** ZOOM BUTTONS ***********************************/
+
+.btn-zoom {
+	background: $color-gray-2;
+	border: 3px solid #efefef;
+	border-radius: 20px;
+	z-index: 6; /* needed by IE8 for Leaflet */
+	position: absolute;
+	left: 3%;
+	width: 40px;
+	height: 40px;
+	color: $color-white;
+
+	&:hover {
+		background: $color-gray;
+	}
+
+	&#btn-zoom-in {
+		top:90px;
+	}
+
+	&#btn-zoom-out {
+		top:140px;
+	}
+}
+
+/*********************************** HEADER PANEL ***********************************/
+
+#header-panel {
+	min-width: 300px;
+	left: 0;
+	top: 0;
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	z-index: 10; /* z-index of at least 2 needed by IE8 for Leaflet */
+	-webkit-transform: translate3d(0,0,0);
+	background: $color-white;/*ie fallback */
+	background: rgba(255,255,255,0.9);
+	text-align: center;
+}
+
+.header-bar-btn {
+	border-right: 1px solid #d8d9db;
+	float: left;
+	height: 100%;
+	max-width: 10%;
+	min-width: 5%;
+	background: none;
+	color: #adbac3;
+	font-size: 1.3em;
+
+	&:hover {
+		color: #666;
+	}
+}
+
+.header-bar-logo {
+	/* background: url(../../../resources/ifactor/images/ifac-logo-main.png) no-repeat; */
+	background-size: 100px 28px;
+	background-color: transparent;
+	width: 100px;
+	max-width: 100px; /* keep for ie */
+	height: 23px;
+	position: absolute;
+	right: 40px;
+	float:  right;
+	top: 19px;
+
+	&.default-logo {
+		background: transparent url(../../../resources/ifactor/images/svg/ifactor-logo.svg) 0 0 no-repeat;
+		background-size: 100px 23px;
+	}
+}
+
+/*********************************** SEARCH PANEL ***********************************/
+
+#search-bar {
+	float: left;
+	padding: 15px 0 0 10px;
+
+	#search-field {
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		border: none;
+		border-radius: 0;
+		font-size: 1em;
+		height: 30px;
+		padding: 0 25px 0 10px;
+		background-color: rgba(225,225,225,0.3);
+		box-shadow: none;
+		display: inline;
+		margin: 0;
+		width: 400px;
+	}
+
+	.search-button {
+		display: inline;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		background: transparent;
+		width: 30px;
+		height: 30px;
+		color: #adbac3;
+		background-color: rgba(225,225,225,0.3);
+		&:hover {
+			color: #ccc;
+		}
+	}
+}
+
+#contactInformationForm {
+	a {
+		color: $menu-level-1;
+	}
+}
+
+
+/*********************************** MENU PANEL ***********************************/
+
+	
+#menu-panel {
+	display: none;
+	position: relative;
+	bottom: auto;
+	color: $color-white;
+	height: 100%;
+	left: 0%;
+	top: 0%;
+	overflow-y: auto;
+	width: 25%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-overflow-scrolling: touch;
+	z-index: 12; /* needed by IE8 for Leaflet */
+	background: #f1f2f2;
+
+	#menu-header {
+		height: 60px;
+	}
+
+	&.gpuAccelCapable {
+		display: block;
+		@include transition(0ms, ease);
+		@include transform(-81%, 0, 0);
+
+		.menu-row {
+			.menu-label, .menu-arrow {
+				display: none;
+			}
+
+			.menu-icon {
+				float: right;
+			}
+		}
+
+		&.expanded {
+
+			.info-data, .resp-text {
+				font-size: 1em;
+			}
+
+			#menu-content-total-outages {
+				height: auto;
+			}
+
+			.menu-label, .menu-arrow {
+				color: $color-gray;
+			}
+
+		}
+
+	}
+
+	&.collapsing {
+		@include transition(200ms, ease);
+	}
+
+	&.expanded {
+		@include transition(200ms, ease);
+		@include transform(0, 0, 0);
+
+		.menu-row {
+			.menu-arrow {
+				width: 10%;
+				height: 100%;
+				float: right;
+				display: inline-block;
+				position: relative;
+				z-index: 100;
+			}
+
+			.menu-icon {
+				float: left;
+				width: 15%;
+				text-align: left;
+			}
+
+			.menu-label {
+				width: 70%;
+				float:  left;
+				font-size: 0.9em;
+				font-weight: bold;
+				display: inline-block;
+				padding-top: 10px;
+			}
+		}
+	}
+
+	&.legacy {
+		display: block;
+		left: -20%;
+		width: 25%;
+	}
+}
+
+#ifactorMenuButton {
+     position: absolute;
+     top:50%;
+     left: 0;
+     margin-top: -50px;
+     margin-right: 0%;
+     width: 30px;
+     height: 50px;
+     background-color: black;
+     color: $color-white;
+}
+
+
+#tab-bar {
+	background-color: #7ab800;
+	float: left;
+	height: 100%;
+	width: 58px;
+
+	a {
+		background-position: center;
+		background-repeat: no-repeat;
+		display: block;
+		height: 40px;
+		width: 100%;		
+	}
+}
+
+#menu-content {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: auto;
+	left: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	#menu-content-holder {
+		padding: 0 20px 20px;
+	}
+
+	#menu-content-summary {
+		padding: 0;
+	}
+
+	#menu-header {
+		background: $menu-level-1;
+	}
+
+	div {
+
+		 hr {
+			background-color: $color-menu-content-bg;
+			border: none;
+			height: 1px;
+			margin: 10px 0;
+		}
+
+		span {
+			&.heading {
+				color: $color-menu-content-heading;
+				display: block;
+				font-size: 110%;
+			}
+
+			&.subheading {
+				color: $color-menu-content-heading;
+				display: block;
+				font-size: 95%;
+			}
+			&.selected {
+				display: block;
+			}
+		}
+		&.selected {
+			display: block;
+		}
+	}
+
+	#menu-content-summary {
+		padding: 0;
+	}
+
+	#menu-content-legend {
+		hr {
+			margin: 15px 0;
+		}
+	}
+
+	.subrow {
+		background-color: #a5aaad;
+		border-top: 1px solid #b8b8b8;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		color: #eee;
+		cursor: pointer;
+		display: block;
+		/* height: 44px; */
+		left: 0;
+		line-height: 44px;
+		padding: 0 30px;
+		right: 0;
+		width: 100%;
+		font-size: 0.9em;
+	}
+}
+
+.menu-row {
+	background-color: #9fa8ad;
+	border-bottom: 3px solid #dfdfdf;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	color: $color-menu-text;
+	cursor: pointer;
+	display: block;
+	height: 50px;
+	padding-left: 14px;
+	width: 100%;
+	overflow: hidden;
+
+	&:hover {
+		.menu-icon, .menu-label, .menu-arrow {
+			color: $color-white !important;
+		}
+	}
+
+	&.info-data {
+		background-image: none;
+		cursor: default;
+		border-top: none;
+		color: $color-white;
+		font-weight: normal;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		height: auto;
+
+		p {
+			margin: 0;
+			display: block;
+		}
+	}
+
+	&.expanded {
+		.menu-icon, .menu-label, .menu-arrow {
+			color: $color-white !important;
+		}
+	}
+
+	span {
+		padding-top: 10px;
+		display: inline-block;
+	}
+
+	.menu-icon {
+		width: 20%;
+		height: 100%;
+		font-size: 1.3em;
+		color: #585c5f;
+		text-align:  center;
+	}
+
+	.menu-arrow {
+		color: $color-menu-text;
+	}
+
+}
+
+.expandable-content {
+	display: none;
+	width: 100%;
+	color: $color-gray;
+	a {
+		color: $menu-level-2;
+	}
+}
+
+.expandable-content-padding {
+	padding: 10px 10px 10px 20px;
+}
+
+#branding-logo {
+	opacity: 0.5;
+	@include transitionOpacity(0.5s, ease-in-out);
+	position: absolute;
+	bottom: 27px;
+	right: 70px;
+	width: 100px;
+	height: 23px;
+	background: transparent url(../../../resources/ifactor/images/svg/ifactor-watermark.svg) 0 0 no-repeat;
+	background-size: 100px 23px;
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+
+#customer-logo {
+	display: none;
+	position: absolute;
+	bottom: 27px;
+	left: 20px;
+	width: 100px;
+	height: 23px;
+	background: transparent url(../../../resources/ifactor/images/svg/ifactor-logo.svg) 0 0 no-repeat;
+	background-size: 100px 23px;
+}
+
+
+/*********************************** INFO PANEL ***********************************/
+
+#info-panel {
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 300px;
+	z-index: 8;
+	background: $legacy-panel-bg;
+	background: $panel-bg;
+	font-size: 1em;
+
+	&.gpuAccelCapable {
+		display: block;
+		@include transform(0, 0, 0);
+
+		&.hidden {
+			@include transform(100%, 0, 0);
+		}
+	}
+
+	.info-btn {
+		padding: 10px;
+		color: $color-white;
+		font-size: 12px;
+		border-radius: 5px;
+		background-color: #6e8188; /*IE FALLBACK*/
+		background-color: rgba(110, 129, 136, 0.8);
+		border: 1px solid #ccc;
+
+		&:hover {
+			color: #ccc;
+			border-color: $color-white;
+		}
+
+		&.danger {
+			background: $color-red;
+			&:hover {
+				background: $color-red-2;
+			}
+		}
+		&.warning {
+			background: $color-orange;
+			&:hover {
+				background: $color-orange-2;
+			}
+		}
+		&.success {
+			background: $menu-level-3;
+			&:hover {
+				background: $menu-level-2;
+			}
+		}
+		&.primary {
+			background: $menu-level-3;
+			&:hover {
+				background: $menu-level-2;
+			}
+		}
+		&.grayed {
+			background: $color-gray;
+			&:hover {
+				background: $color-gray-2;
+			}
+		}
+	}
+
+	.input-prepend {
+		.add-on {
+			border: none;
+			border-radius: 0;
+			background: $menu-level-1;
+		}
+		input, textarea {
+			border-radius: 0;
+			border: none;
+			&.input-xlarge {
+				width: 220px;
+			}
+		}
+
+		select {
+			border: none;
+			border-radius: 0;
+			&.input-xlarge {
+				width: 230px;
+			}
+		}
+	}
+
+	.info-content-container {
+		color: #000;
+		padding: 0;
+		margin: 0;
+		.info-img-holder {
+			left: 220;
+			img {
+				border: 1px solid #000;
+			}
+		}
+		.info-content-callout {
+			color: $color-white;
+			padding-top: 10px;
+		}
+		.pole-num, .order-num, .date-reported, .light-type, .light-style, .wattage {
+			span {
+				font-weight: 700;
+			}
+		}
+	}
+
+
+}
+
+#info-box {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 100%;
+	overflow: hidden;
+	padding: 90px 20px 80px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	
+	.preview-img {
+		border:1px solid #000;
+	}
+}
+
+.title-bar {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: $color-white;
+	font-size: 105%;
+	height: 40px;
+	padding: 9px 0 0;
+	width: 100%;
+	font-weight: bold;
+	border-bottom: 3px solid $menu-level-1;
+	text-transform: uppercase;
+}
+
+#info-box-scroller {
+	opacity: 0.95;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+	-webkit-overflow-scrolling: touch;
+	max-height: 90%;
+}
+
+#info-box-content {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: $color-white;
+	font-size: 90%;
+	padding: 20px 0;
+	width: 100%;
+
+	img {
+		max-width: 100%;
+	}
+
+	p {
+		margin: 0px 0px 5px 0px;
+		color:$color-white	}
+
+	.info-box-field-label {
+		font-weight: 700;
+		padding-right: 7px;
+	}
+
+	.info-box-field-value {
+		white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+		white-space: -pre-wrap;      /* Opera 4-6 */
+		white-space: -o-pre-wrap;    /* Opera 7 */
+		white-space: pre-wrap;       /* css-3 */
+		word-wrap: break-word;       /* Internet Explorer 5.5+ */
+		word-break: break-all;
+		white-space: normal;
+	}
+
+	.alert-info {
+		border-radius: 5px;
+		background-color: #6e8188; /*IE FALLBACK*/
+		background-color: rgba(110, 129, 136, 0.8);
+		border: 1px solid #ccc;
+		color: $color-white;
+		text-shadow: none;
+	}
+}
+
+
+
+#info-box-tool-tray {
+	border-top: 1px solid #ccc;
+	font-size: 0;
+	max-height: 66px;
+	overflow: hidden;
+	padding-top: 10px;
+	width: 100%;
+	border-top: 2px solid #d6d6d6;
+}
+
+#info-box-tool-tray-inner {
+	display: inline-block;
+	height: 100%;
+	float: right;
+
+	button {
+		background-color: transparent;
+		background-position: center;
+		background-repeat: repeat;
+		background-size: 100%;
+		float: left;
+		height: 100%;
+		margin: 3px;
+	}
+}
+
+@import '_media-queries';
